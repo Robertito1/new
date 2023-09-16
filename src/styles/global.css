@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.cyan{
+  background-color: #8972cf;
+}
+
+.primary-font{
+  font-family: 'Poppins', sans-serif;
+}
+
+.box-shadow{
+  box-shadow: 5px 0px 15px 1px #cacaca;
+}
+
+.purple{
+  background-color: #150a33;
+}
+
+.text-purp{
+  color: #150a33
+}
+
+.dashboard-side-text{
+ color: #6e6e6e
+}
+
+.offwhite-background{
+  background-color: #ecfdff;
+ }
+
+ .input-shadow{
+  box-shadow: 0px 2px 5px 1px #cacaca;
+}
+
+@media (max-width: 1023px){
+  .navbarBackgroundCyan{
+    background-color: #8972cf;
+  }
+  .navbarBackgroundPurple{
+    background-color: #150a33;
+  }
+  .navbarQuestion{
+    color: white;
+  }
+}

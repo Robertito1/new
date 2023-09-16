@@ -24,7 +24,7 @@ const SignUpForm = () =>{
                 })}
                 onSubmit={(values, { setSubmitting }) => {
                     setTimeout(() => {
-                    navigate('/select-service')
+                    navigate('/selectService')
                     setSubmitting(false);
                     }, 400);
                 }}
